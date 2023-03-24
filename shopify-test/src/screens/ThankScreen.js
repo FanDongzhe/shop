@@ -1,6 +1,7 @@
 import React from 'react'
 import Light from '../Light'
 import {Row, Col} from 'react-bootstrap'
+import Slider from '../Hscroll'
 
 const ThankScreen = () => {
   return (
@@ -8,7 +9,7 @@ const ThankScreen = () => {
         <Row >
             <Col>Thank You</Col>
             <Col>
-                <Light></Light>
+              <Slider />
             </Col>
         </Row>
     </>
